@@ -23,6 +23,7 @@ A production-style backend application designed to showcase the following featur
     
 
 <ins>Architecture Diagram</ins>
+
 <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/9a5a1846-f0fe-4ff6-9d82-4909b31cda61" />
 
 
