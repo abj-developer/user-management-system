@@ -56,3 +56,8 @@ A production-style backend application designed to showcase the following featur
 
 Tech Stack ->
 Java 17 | Spring Boot | Spring Cloud | MySQL | Docker | GitHub Actions | REST APIs | Eureka | API Gateway| Rest API | Swagger | NGINX
+
+
+<ins>Auth Service Credentials-></ins>
+User Name-> admin   
+Password -> admin123
