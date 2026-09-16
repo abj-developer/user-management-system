@@ -5,10 +5,10 @@
 **Description**
 
 A production-style backend application designed to showcase the following features.
-1. Designed 1 microservice **serve-registry** as Discovery-server registered as Eureka server. All other services will register with it.
+1. Designed 1 microservice **service-registry** as Discovery-server registered as Eureka server. All other services will register with it.
 2. Designed 3 Microservices (**user-service**, **department-service** ) registered as Eureka Client and **email-service**.
 3. Designed 1  microservice **Auth-service** having the JWT authentication part for token generation enabling API Security. Auth-Service is also registered as Eureka Client.
-4. Designed 1 microservice **api-aateway**. All Other Services will be behind the api-gateway making it as single entry point. It would be used for cross-cutting concerns. Currently **JWT** authentication and verification is happening here through auth-service. A **Central Swagger** is enabled here to list down all the Apis.
+4. Designed 1 microservice **api-gateway**. All Other Services will be behind the api-gateway making it as single entry point. It would be used for cross-cutting concerns. Currently **JWT** authentication and verification is happening here through auth-service. A **Central Swagger** is enabled here to list down all the Apis.
 5. user-service is sending User Registration Notification to a Kafka Topic and email-service is sending this notification to the email of the user through Brevo SMTP Server.
 6. All the Microservices are containerized using Docker and Docker Compose.
 7. CI/CD Pipeline is configured using GitHub Actions. Docker images are getting build and stored in GitHub Container Registry (GHCR). 
